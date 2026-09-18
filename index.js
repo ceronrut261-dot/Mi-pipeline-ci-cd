@@ -2,4 +2,8 @@ function sumar(a, b) {
     return a + b;
 }
 
-module.exports = { sumar };
+function multiplicar(a, b) {
+    return a * b;
+}
+
+module.exports = { sumar, multiplicar };
